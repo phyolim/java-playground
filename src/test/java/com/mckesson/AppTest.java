@@ -15,6 +15,12 @@ public class AppTest {
     @Test
     public void testAppReturnCorrectGrade(){
         App classUnderTest = new App();
-        assertEquals("A", classUnderTest.getLetterGrade(90));
+        assertEquals("C", classUnderTest.getLetterGrade(79));
+    }
+
+    @Test
+    public void testPrintFromWhile(){
+        App classUnderTest = new App();
+        classUnderTest.printNumbers(45, 50);
     }
 }
