@@ -3,7 +3,10 @@ package com.mckesson;
 class App {
 
     public static void main(String[] args) {
-        System.out.println("HELLO WORLD");
+        if (args.length < 1)
+            System.out.println("Please provide an argument");
+        else
+            System.out.println(String.format("Argument Provided: %s", args[0]));
     }
 
     public String getLetterGrade(int input) {
