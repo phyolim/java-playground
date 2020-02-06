@@ -1,4 +1,6 @@
-package com.mckesson;
+package com.galvanize;
+
+import com.galvanize.BankAccount;
 
 class App {
 

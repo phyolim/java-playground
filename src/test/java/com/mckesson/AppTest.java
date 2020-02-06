@@ -1,4 +1,4 @@
-package com.mckesson;
+package com.galvanize;
 
 import org.junit.Test;
 
